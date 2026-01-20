@@ -1,0 +1,5 @@
+{
+  "name": "AI Resume Architect",
+  "description": "An AI-powered career coach that analyzes your resume against a job description, provides a suitability score, suggests improvements, and generates a tailored cover letter to help you land your target job.",
+  "requestFramePermissions": []
+}
