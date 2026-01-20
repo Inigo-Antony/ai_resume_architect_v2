@@ -6,7 +6,7 @@ import ResultsPage from './components/ResultsPage';
 import AIChatModal from './components/AIChatModal';
 import ImprovementPage from './components/ImprovementPage';
 import { analyzeAndGenerate, regenerateWithAnswers } from './services/geminiService';
-import { HomeIcon } from './constants';
+import { HomeIcon, WandIcon } from './constants';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>(Page.Home);
@@ -227,11 +227,5 @@ const App: React.FC = () => {
     </div>
   );
 };
-
-const WandIcon = ({ className = "w-5 h-5" }: { className?: string }) => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={className}>
-      <path fillRule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.819.162l4.125 3.375a.75.75 0 01-.972 1.185l-4.125-3.375a9.003 9.003 0 00-11.082 2.316.75.75 0 01-1.185-.972l3.375-4.125a8.962 8.962 0 00-2.316-11.082L1.718 18.472a.75.75 0 01-1.185-.972l3.375-4.125A8.962 8.962 0 003 9a9 9 0 00-7.282 14.232.75.75 0 01-1.185-.972l4.125-3.375a.75.75 0 01.972 1.185l-4.125 3.375A9.003 9.003 0 0015 21a9 9 0 007.282-14.232.75.75 0 011.185.972l-3.375 4.125a.75.75 0 01-.972-1.185l3.375-4.125a8.962 8.962 0 0011.082-2.316.75.75 0 01.972 1.185L18.472 6.282a.75.75 0 01-.972-1.185l4.125-3.375z" clipRule="evenodd" />
-    </svg>
-  );
 
 export default App;

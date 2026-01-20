@@ -183,7 +183,7 @@ You are 'Coach AI'. The user has provided answers to your clarifying questions. 
 const callGeminiAPI = async (prompt: string): Promise<AnalysisResult> => {
     try {
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
+            model: 'gemini-3-flash-preview',
             contents: prompt,
             config: {
                 responseMimeType: "application/json",
@@ -232,7 +232,7 @@ export const editTextWithAI = async (currentText: string, instruction: string): 
     `;
     
     const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-flash-preview',
         contents: prompt
     });
 
