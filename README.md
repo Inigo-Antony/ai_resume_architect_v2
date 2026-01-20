@@ -50,4 +50,3 @@ The application requires a valid Gemini API Key, expected to be available via `p
 
 ---
 
-*“Your resume is your architect; let AI be your lead designer.”*
