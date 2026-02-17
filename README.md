@@ -48,5 +48,11 @@ AI Resume Architect is a sophisticated, AI-powered career assistant designed to 
 
 The application requires a valid Gemini API Key, expected to be available via `process.env.API_KEY`. It utilizes a strictly defined `responseSchema` to ensure the AI always returns valid, structured data that the UI can render reliably.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+Inigo Antony
+
 ---
 
